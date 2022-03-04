@@ -1,0 +1,44 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-g++-9",
+      "-c",
+      "-std=c++2a",
+      "-g",
+      "./container-with-most-water.cpp",
+      "-o",
+      "main"
+    ],
+    "directory": "/home/vssblt/code/leetcode",
+    "file": "/home/vssblt/code/leetcode/./container-with-most-water.cpp",
+    "output": "/home/vssblt/code/leetcode/./container-with-most-water.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-g++-9",
+      "-c",
+      "-std=c++2a",
+      "-g",
+      "./main.cpp",
+      "-o",
+      "main"
+    ],
+    "directory": "/home/vssblt/code/leetcode",
+    "file": "/home/vssblt/code/leetcode/./main.cpp",
+    "output": "/home/vssblt/code/leetcode/./main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/x86_64-linux-gnu-g++-9",
+      "-c",
+      "-std=c++2a",
+      "-g",
+      "./regular-expression-matching.cpp",
+      "-o",
+      "main"
+    ],
+    "directory": "/home/vssblt/code/leetcode",
+    "file": "/home/vssblt/code/leetcode/./regular-expression-matching.cpp",
+    "output": "/home/vssblt/code/leetcode/./regular-expression-matching.o"
+  }
+]
