@@ -9,17 +9,21 @@
 
 int Solution::firstBadVersion(int n) { return this->search(0, n); }
 
-bool Solution::isBadVersion(int n) { return true; }
+bool Solution::isBadVersion(int n) {
+  if (n >= 1)
+    return true;
+  return false;
+}
 
 int Solution::search(int begin, int end) {
   int mid = (end - begin) / 2 + begin;
   if (end - begin == 1) {
     int res = isBadVersion(begin);
     if (res == false)
-      return begin;
+      return begin + 1;
     res = isBadVersion(end);
     if (res == false)
-      return end;
+      return end + 1;
   }
   if (isBadVersion(mid)) {
     end = mid;
